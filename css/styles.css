@@ -46,6 +46,9 @@ ul {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -120,7 +123,7 @@ ul {
   border-radius: 2px;
   background-color: #404bbf;
   left: 0;
-  bottom: -2px;
+  bottom: -1px;
 
   position: absolute;
   transition-property: transform;
@@ -217,7 +220,7 @@ ul {
 
   transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-hero-button:hover {
@@ -264,7 +267,6 @@ ul {
   background-color: #f4f4fd;
   border-radius: 4px;
   border: 1px solid #8e8f99;
-  padding: 24px auto;
   margin-bottom: 8px;
 }
 
@@ -319,7 +321,6 @@ ul {
 
 .section-team-img {
   display: block;
-  padding-bottom: 0 0 32px 0;
 }
 
 .team-item:not(:last-child) {
@@ -352,9 +353,9 @@ ul {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  
-  transition-duration: 250ms; 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
+  transition-duration: 250ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-icon {
@@ -363,7 +364,7 @@ ul {
 
 .socials-link:hover,
 .socials-link:focus .socials-link:active {
-  background-color: #404bbf;   
+  background-color: #404bbf;
 }
 
 .section-team-subtitle {
@@ -461,8 +462,8 @@ ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 /* Footer */
+
 .footer {
   background-color: #2e2f42;
   padding: 100px 0 100px;
@@ -473,10 +474,9 @@ ul {
   align-items: baseline;
 }
 
-.logo-box{
+.logo-box {
   margin-right: 120px;
 }
-
 
 .footer-link {
   display: inline-block;
@@ -492,8 +492,7 @@ ul {
   max-width: 264px;
 }
 
-
-.socials-link-footer {
+.social-link-footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -501,27 +500,27 @@ ul {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  
-  transition-duration: 250ms; 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
+  transition-duration: 250ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon {
   font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.02em;
-color: #FFFFFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .socials-icon {
-  fill: #f4f4fd;  
+  fill: #f4f4fd;
 }
 
-.socials-link-footer:hover,
-.socials-link-footer:focus, 
-.socials-link-footer:active {
-  background-color: #31D0AA;   
+.social-link-footer:hover,
+.social-link-footer:focus,
+.social-link-footer:active {
+  background-color: #31d0aa;
 }
